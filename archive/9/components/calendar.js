@@ -2,7 +2,6 @@ import { Flex, Box } from "rebass";
 import { Element } from "react-scroll";
 import {
   title,
-  friday,
   saturday,
   sunday,
   dayOne,
@@ -14,23 +13,11 @@ import colors from "../styles/colors.json";
 const Calendar = () => (
   <Element name="calendar">
     <Box bg={"#F4FEFC"} color={colors["base"]}>
-      <Box mx={4} px={3} pt={4}>
+      <Box mx={4} px={2} pt={4}>
         <h2 className="title">{title}</h2>
       </Box>
       <Flex my={1} pb={4} mx={4} flexWrap="wrap">
-        <Box px={3} width={[1, 1 / 3]}>
-          <h2 className="dayName">{dayOne}</h2>
-          <ul className="dayContent">
-            {friday.map(({ key, title, time, detail }) => (
-              <li key={key} className="dayItem">
-                <span className="itemTitle">{title}</span>
-                <span className="itemTime">{time}</span>
-                <span className="itemDetail">{detail}</span>
-              </li>
-            ))}
-          </ul>
-        </Box>
-        <Box px={3} width={[1, 1 / 3]}>
+        <Box px={3} width={[1, 1 / 2]}>
           <h2 className="dayName">{dayTwo}</h2>
           <ul className="dayContent">
             {saturday.map(({ key, title, time, detail }) => (
@@ -42,7 +29,7 @@ const Calendar = () => (
             ))}
           </ul>
         </Box>
-        <Box px={3} width={[1, 1 / 3]}>
+        <Box px={3} width={[1, 1 / 2]}>
           <h2 className="dayName">{dayThree}</h2>
           <ul className="dayContent">
             {sunday.map(({ key, title, time, detail }) => (

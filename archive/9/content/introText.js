@@ -2,7 +2,7 @@
  * The text that appears at the top of the hackrice web page.
  * @type {string}
  */
-export const intro = "HackRice X: Coming soon!";
+export const intro = "_____: Coming soon March 2021!";
 
 /**
  * A list of bullet points that introduce the event.
@@ -18,16 +18,15 @@ export const bullets = [
 
   {
     icon: "https://icon.now.sh/calendar/ffffff",
-    button: "September 20-22, 2019",
+    button: "March 6-7, 2021",
     href:
       "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
-    note: "36 hours of non-stop building"
+    note: "A 24 hour hack to bring us together after spending so much time apart."
   },
   {
     icon: "https://icon.now.sh/wb_sunny/ffffff",
-    button: "held @ rice memorial center",
-    href: "https://goo.gl/maps/mnRG8hDRQj52",
-    note: "on our majestic campus in houston"
+    button: "held VIRTUALLY",
+    note: "Sponsored and organized by Rice SASE"
   }
 ].map(bullet => {
   bullet.key = `bullet-${bullet.button}`;

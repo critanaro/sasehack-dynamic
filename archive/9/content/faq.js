@@ -9,27 +9,27 @@ export const title = "QUESTIONS & ANSWERS";
  * @type {{question : string, answer : string}[]}
  */
 export const questions = [
-  {
-    question: "How long is HackRice?",
+    {
+    question: "Will this hack be virtual?",
     answer:
-      "The event is held from Friday, September 18th to Sunday, September 20th. Students hack for 36 hours. Stay tuned for more info."
-  },
+        "Yes! but we'll still have some swag for our hackers to pick up, along with givewaays and other events."
+    },
   {
-    question: "How many hackers attend HackRice? Where are they from?",
+    question: "How long is _____?",
     answer:
-      "We expect around 400 hackers from schools around the country, including (but not limited to) UT Austin, Berkeley, USC, University of Waterloo, Georgia Tech, University of Washington, and many more."
+      "The event is held from Saturday, March 6th, 12:00 PM to Sunday, March 7th at 4:00 PM. Participants hack for 24 hours."
   },
   {
     question: "How many hackers per team are permitted?",
     answer:
-      "Team are limited to 4 hackers. That being said, you don't have to have 4 hackers to compete."
+      "Teams may have at most 4 hackers. You're welcome to hack solo or with a smaller team if you'd like!"
   },
   {
-    question: "Is there a HackRice Facebook page?",
+    question: "Is there a _____ Facebook event?",
     answer: (
       <>
-        Yes there is! Click{" "}
-        <a className="styledlink" href="https://www.facebook.com/hackrice/">
+        Yes there is! RSVP here! Click{" "}
+        <a className="styledlink" href="https://www.facebook.com/events/376743706956254/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22page_admin_consolidated_entry_buttons_row%22%2C%22surface%22%3A%22page%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22create_dialog%22%7D]%7D&onload_action=online_event_upsell_dialog">
           here
         </a>{" "}
         to access it!
@@ -37,62 +37,34 @@ export const questions = [
     )
   },
   {
-    question: "Who is eligible to participate in HackRice?",
+    question: "Who is eligible to participate in _____?",
     answer: (
       <>
-        Any current student over the age of 18 is eligible to apply to HackRice.
-        Since we are an MLH member event, participants must also accept the{" "}
-        <a
-          className="styledlink"
-          href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-        >
-          MLH Code of Conduct.
-        </a>
+        Any current student age 18 or older is eligible to apply to ____.
       </>
     )
   },
   {
-    question: "Will my travel be reimbursed?",
-    answer: "Yes! Check your acceptance email for more details. Please note that reimbursement will be given on a first come, first serve basis for applicants accepted on or after August 18. For those applicants, reimbursement is not guaranteed."
-  },
-  {
-    question: "Will there be food?",
-    answer:
-      "Yes! We will provide catered meals during the day along with snacks and free caffeine through the night to keep you going."
-  },
-  {
-    question: "What are the acceptance criteria?",
-    answer:
-      "Rice students, alumni, and University of Houston undergraduates are guaranteed acceptance. For Non-Rice students, we ask for some background information so that we can invite people who have demonstrated interest and skill. The admission process will be competitive and rolling! We also will take into account people who have never been to a hackathon before, so please apply!"
-  },
-  {
-    question: "What do I need to bring?",
-    answer:
-      "Please bring a student and legal ID so we can verify and register you on-site! You'll also need to bring a computer, whatever software you feel might be necessary for development, a sleeping bag, and a pillow. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other."
-  },
-  {
     question: "What if I'm not very experienced?",
     answer:
-      "We do our best to point people in the right direction and use tools and languages with a low barrier to entry. There will also be upperclassmen participating in the hackathon who can guide you in the right direction. We will also be having workshops the week before the hackathon!"
-  },
-  {
-    question: "Can Rice alumni attend?",
-    answer:
-      "Rice alumni are eligible to attend the event to hack or mentor other students, but alumni submissions will not be eligible for prizes. We will not be able to reimburse alumni for travel."
+      "We'll have a track exclusive to beginner hackers (if at least half the team members have never participated in a hackathon before, or have <1 year of programming experience)."
   },
   {
     question: "What if I don't have a team before the event?",
     answer:
-      "You don't have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to."
-  },
-  {
-    question: "Do I need to stay the whole time?",
-    answer:
-      "Nope, we are not a lock-in. We realize that 36 hours is a long time, and that some people might need fresh air or to tend to other commitments. You may leave and go as you deem necessary, though we prefer you to stay!"
+    (
+        <>
+          No worries; click {" "}
+          <a className="styledlink" href="https://docs.google.com/spreadsheets/d/1_Nwj1MvfOK-BXkn7_RiHie_FRr0yi8MfmlHK0Zys_ts/edit#gid=0">
+            here
+          </a>{" "}
+          to take a look at our team registration sheet, which has other hackers looking for teams. 
+        </>
+      )
   },
   {
     question: "When does the event start? When will it end?",
-    answer: "Opening ceremonies will start at 7pm on September 18, and the event should be completely finished by 3pm on September 20."
+    answer: "Opening ceremonies will start at 1:00 pm on Marc 6, and the event should be completely finished by 4:30 PM on March 7."
   }
 ].map(item => {
   item.key = `faq-${item.question}`;
