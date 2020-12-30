@@ -42,7 +42,7 @@ const Sponsors = () => (
           blurb === undefined ? (
             <a href={link}>
               <Image
-                style={{ margin: "2em 1em", height: `${height}` }}
+                style={{ margin: "2em 1em", height: `${height}`}}
                 src={`../static/sponsors/${name}`}
               />
             </a>
@@ -50,7 +50,7 @@ const Sponsors = () => (
             <CustomTooltip text={blurb}>
               <a href={link}>
                 <Image
-                  style={{ margin: "2em 1em", height: `${height}` }}
+                  style={{ margin: "2em 1em", height: `${height}`}}
                   src={`../static/sponsors/${name}`}
                 />
               </a>
