@@ -68,7 +68,7 @@ const Home = () => (
     <Links links={links} />
     <style jsx global>{`
       html {
-        background: ${colors["base"]} !important;
+        background: linear-gradient(rgb(95, 12, 138), rgb(12, 4, 30))
       }
     `}</style>
   </Provider>
