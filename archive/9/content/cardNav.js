@@ -12,7 +12,7 @@ export const cards = [
   {
     icon: "https://microicon-clone.vercel.app/compose/ffffff",
     title: "Registration",
-    href: "https://forms.gle/wLN8cmDXp9nnJ18q6",
+    href: "https://form.typeform.com/to/gKWfHA4z",
     text: "Are you a college student? Register now for RSHack →"
   },
   {
@@ -54,7 +54,7 @@ export const cards = [
   {
     icon: "https://microicon-clone.vercel.app/slack/ffffff",
     title: "Slack",
-    href: "https://join.slack.com/t/hackrice9/shared_invite/enQtNzUwMjg3MzAyMjQ2LWExOGI4YjQ0NTk3ZWMzZThiNzczMTgxMTAxYjhiMTkzYTVlZWQ5ODU2NDllM2YyNmM5NGYzZmZlODYyZmJkOGY",
+    href: "https://join.slack.com/t/rshack/shared_invite/zt-l2ni8aok-965Sm5aam6_kNWAZh8U~nA",
     text: "Join our Slack channel for the latest updates →"
   },
   {
