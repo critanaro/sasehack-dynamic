@@ -2,21 +2,21 @@ export const title = "Tracks & Challenges";
 
 export const cards = [
     {
-        icon: "https://icon.now.sh/bubble_chart/ffffff",
+        icon: "https://microicon-clone.vercel.app/bubble_chart/ffffff",
         type: "track",
         title: "First Timers' Track",
         href: "https://github.com/hack-rice/HR9-First-Timers-Track",
         text: "We live in a society where everything is customized, from your phone case to your coffee order. So why shouldn't your browser be too? Chrome extensions allow you to craft and tailor your ideal browsing experience in a few short lines of code. In this track, you'll build a Chrome extension from scratch using HTML/CSS and JavaScript."
     },
     {
-        icon: "https://icon.now.sh/user/ffffff",
+        icon: "https://microicon-clone.vercel.app/user/ffffff",
         type: "track",
         title: "Ethics Track",
         href: "https://github.com/hack-rice/HR9-Ethics-Track",
         text: "Computing and technology are neutral for the most part. They can be used to enhance the best aspects of human nature (such as empathy, creativity, and generosity), or they can allow the worst aspects of it (such as prejudice, selfishness, and irrational thinking) to flourish and cause harm. Incorporating ethics into design and coding involves trying to anticipate all the ways – positive and negative – humans may use and interact with tech. While it’s difficult to exert complete control over human users, tech can be designed to promote particular behavior and outcomes."
     },
     {
-        icon: "https://icon.now.sh/border_color/ffffff",
+        icon: "https://microicon-clone.vercel.app/border_color/ffffff",
         type: "track",
         title: "Design Track",
         href: "https://github.com/hack-rice/HR9-Design-Track",
@@ -32,14 +32,14 @@ export const cards = [
             </p>)
     },
     {
-        icon: "https://icon.now.sh/timeline/ffffff",
+        icon: "https://microicon-clone.vercel.app/timeline/ffffff",
         type: "track",
         title: "Data Science and Machine Learning Track",
         href: "https://github.com/hack-rice/HR9-DS-ML-Track",
         text: "This track will allow you to explore interesting data sets using machine learning and other data science techniques. The goal is simple – find something interesting in your data and present it in a compelling manner. Projects with a social impact are especially encouraged."
     },
     {
-        icon: "https://icon.now.sh/bitcoin/ffffff",
+        icon: "https://microicon-clone.vercel.app/bitcoin/ffffff",
         type: "challenge",
         title: "Bill.com",
         href: "https://docs.google.com/document/d/154aVkbCMp0_NQgSIhCm5t5iqqsXPrrmygN0p7_g7qX4/edit",
@@ -66,14 +66,14 @@ export const cards = [
         )
     },
     {
-        icon: "https://icon.now.sh/local_gas_station/ffffff",
+        icon: "https://microicon-clone.vercel.app/local_gas_station/ffffff",
         type: "challenge",
         title: "Schlumberger",
         text:
             "From classical statistical methods to real-time constraint optimization, Bayesian neural networks, and reinforcement learning, Schlumberger uses Machine Learning to gain maximum insight from huge volumes of data.  Our challenge for you: use Machine Learning to solve a problem of your choice.  We will grade you on your idea, your implementation, and the amount of fun you had hacking! "
     },
     {
-        icon: "https://icon.now.sh/local_gas_station/ffffff",
+        icon: "https://microicon-clone.vercel.app/local_gas_station/ffffff",
         type: "challenge",
         title: "Chevron’s real-time work order scheduling optimization",
         text: (
@@ -103,7 +103,7 @@ export const cards = [
 
     },
     {
-        icon: "https://icon.now.sh/facebook/ffffff",
+        icon: "https://microicon-clone.vercel.app/facebook/ffffff",
         type: "challenge",
         title: "Facebook",
         text: (
@@ -116,7 +116,7 @@ export const cards = [
         )
     },
     {
-        icon: "https://icon.now.sh/airplanemode_active/ffffff",
+        icon: "https://microicon-clone.vercel.app/airplanemode_active/ffffff",
         type: "challenge",
         title: "ForeFlight: Airport Recommendation Challenge",
         href: "http://bit.ly/HackRiceForeFlight2019",
@@ -134,7 +134,7 @@ export const cards = [
         )
     },
     {
-        icon: "https://icon.now.sh/domain/ffffff",
+        icon: "https://microicon-clone.vercel.app/domain/ffffff",
         type: "challenge",
         href: "http://api.reimaginebanking.com/",
         title: "Capital One",
@@ -142,14 +142,14 @@ export const cards = [
             "Best Financial Hack: How will you reimagine banking?"
     },
     {
-        icon: "https://icon.now.sh/merge_type/ffffff",
+        icon: "https://microicon-clone.vercel.app/merge_type/ffffff",
         type: "challenge",
         title: "Two Sigma",
         text:
             "At Two Sigma, we use machine learning, distributed computing and other technologies to find connections in the world’s data. We work with vast quantities of information from over a thousand diverse sources. We love learning from others, and we want to see what you can do in the data science space. We’ll award a prize for the best use of data analysis, data science, or big data technologies."
     },
     {
-        icon: "https://icon.now.sh/thumb_up/ffffff",
+        icon: "https://microicon-clone.vercel.app/thumb_up/ffffff",
         type: "challenge",
         title: "JP Morgan Chase",
         text:

@@ -31,10 +31,10 @@ injectGlobal`
 `;
 
 // Variables for <head>
-let title = "HackRice 9";
+let title = "RSHack";
 let url = "https://hack.rice.edu";
 let ogImage = "../static/blueH.png";
-let description = "The premier hackathon of the south.";
+let description = "The inaugural Rice SASE Hackathon!";
 
 /**
  * This is the react component that makes up most of the web page. It also bridges
@@ -54,7 +54,8 @@ const Home = () => (
     }}
   >
     <Head title={title} description={description} url={url} ogImage={ogImage} />
-    <Mlh />
+    {//<Mlh /> 
+  }
     <CenterImage pathToImage="../static/blueH.png" />
     <IntroText intro={intro} bullets={bullets} />
     <CardNav cards={cards} />
