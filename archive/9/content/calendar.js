@@ -1,8 +1,8 @@
 export const title = "Schedule";
 
-export const dayOne = "Friday, 9/20";
-export const dayTwo = "Saturday, 9/21";
-export const dayThree = "Sunday, 9/22";
+//export const dayOne = "Friday, 3/06";
+export const dayTwo = "Saturday, 3/06";
+export const dayThree = "Sunday, 3/07";
 
 export const saturday = [
   {
@@ -25,7 +25,7 @@ export const saturday = [
     time: "2:00 PM",
     title: "Hacking Begins",
     detail:
-      "Start hacking! ____ admins will be available to answer any questions."
+      "Start hacking! RSHack admins will be available to answer any questions."
   },
   {
     time: "3:30 PM",
@@ -45,7 +45,7 @@ export const saturday = [
 export const sunday = [
   {
     time: "12:00 PM",
-    title: "Sponosr Event 3!",
+    title: "Sponsor Event 3!",
     detail: "Event 3 TBD"
   },
   {
@@ -55,12 +55,12 @@ export const sunday = [
   },
   {
     time: "2:00 - 3:00 PM",
-    title: "Grace Period for uploading",
+    title: "Grace Period for Uploading",
     detail: "Though hacking ends at 2:00 PM, submissions will be accepted until but no later than 3:00 PM."
   },
   {
     time: "3:00 PM",
-    title: "Round 1 Judging begins",
+    title: "Round 1 Judging Begins",
     detail: "Video submissions for the general track will be assessed by our judges. Certain tracks may have live presentations at this point."
   },
   {
@@ -69,13 +69,13 @@ export const sunday = [
     detail: "Teams that will be advancing to Round 2 will be notified"
   },
   {
-    time: "3;40 PM",
+    time: "3:40 PM",
     title: "Round 2 Judging",
     detail: "Live presentations will take place for Round 2 judging."
   },
   {
     time: "4:00 PM",
-    title: "Winner Reveal and closing remarks",
+    title: "Winner Reveal and Closing Remarks",
     detail: "The top three teams will be announced, and the winning general track team will do a small presentation."
   }
 ].map(item => {

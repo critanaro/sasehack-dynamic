@@ -6,29 +6,25 @@
  */
 export const links = [
     {
-      href: "https://facebook.com/hackrice",
+      href: "https://www.facebook.com/saserice/",
       label: "Facebook",
-      icon: "https://icon.now.sh/facebook/ffffff"
+      icon: "https://microicon-clone.vercel.app/facebook/ffffff"
     },
     {
-      href: "https://medium.com/@hackrice",
-      label: "Medium",
-      icon: "https://icon.now.sh/medium/ffffff"
-    },
-    {
-      href: "https://twitter.com/hackingrice",
-      label: "Twitter",
-      icon: "https://icon.now.sh/twitter/ffffff"
-    },
-    {
-      href: "mailto:hack@rice.edu",
+      href: "mailto:Rice_SASE@mailman.rice.edu",
       label: `Email`,
-      icon: "https://icon.now.sh/email/ffffff"
+      icon: "https://microicon-clone.vercel.app/email/ffffff"
     },
     {
-      href: "https://hackrice-9.devpost.com/",
+      href: "http://www.ricesase.com/",
+      label: `Website`,
+      icon: "https://microicon-clone.vercel.app/web/ffffff"
+    },
+   
+    {
+      href: "https://rshack2020.devpost.com/?preview_token=H7gOZ2eFoow62A5eN2O9L%2BLkk28FH3ev9h%2BhLqIVx3M%3D",
       label: "Devpost",
-      icon: "https://icon.now.sh/build/ffffff"
+      icon: "https://microicon-clone.vercel.app/disqus/ffffff"
     }
   ].map(link => {
     link.key = `nav-link-${link.href}-${link.label}`;
