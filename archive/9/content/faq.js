@@ -15,7 +15,7 @@ export const questions = [
         "Yes! but we'll still have some swag for our hackers to pick up, along with givewaays and other events."
     },
   {
-    question: "How long is _____?",
+    question: "How long is RSHack?",
     answer:
       "The event is held from Saturday, March 6th, 12:00 PM to Sunday, March 7th at 4:00 PM. Participants hack for 24 hours."
   },
@@ -25,7 +25,7 @@ export const questions = [
       "Teams may have at most 4 hackers. You're welcome to hack solo or with a smaller team if you'd like!"
   },
   {
-    question: "Is there a _____ Facebook event?",
+    question: "Is there a RSHack Facebook event?",
     answer: (
       <>
         Yes there is! RSVP here! Click{" "}
@@ -37,10 +37,10 @@ export const questions = [
     )
   },
   {
-    question: "Who is eligible to participate in _____?",
+    question: "Who is eligible to participate in RSHack?",
     answer: (
       <>
-        Any current student age 18 or older is eligible to apply to ____.
+        Any current student age 18 or older is eligible to apply to RSHack.
       </>
     )
   },

@@ -9,7 +9,10 @@ import { Box, Image } from "rebass";
  */
 const CenterImage = props => (
   <Box>
-    <Image
+  <a
+  href = "https://rshack2020.devpost.com/?preview_token=H7gOZ2eFoow62A5eN2O9L%2BLkk28FH3ev9h%2BhLqIVx3M%3D"
+    >
+  <Image
       src= { props.pathToImage }
       css={{
         marginLeft: "auto",
@@ -19,6 +22,7 @@ const CenterImage = props => (
         width: "25%"
       }}
     />
+    </a>
 
     <style jsx>{`
       @media (max-width: 575px) {

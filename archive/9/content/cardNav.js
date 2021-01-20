@@ -60,7 +60,7 @@ export const cards = [
   {
     icon: "https://microicon-clone.vercel.app/accessibility/ffffff",
     title: "Register a Team",
-    href: "https://crowdforge.io/hackathons/hackrice9",
+    href: "https://docs.google.com/spreadsheets/d/1_Nwj1MvfOK-BXkn7_RiHie_FRr0yi8MfmlHK0Zys_ts/edit#gid=0",
     text: "Looking to register a team or find one to hack with? Click here →"
   },
   {
