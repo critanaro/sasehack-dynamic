@@ -4,88 +4,70 @@
  */
 export const cards = [
   {
-    icon: "https://icon.now.sh/send/ffffff",
+    icon: "https://microicon-clone.vercel.app/send/ffffff",
     title: "Submissions",
-    href: "https://hackrice-9.devpost.com/",
-    text: "Submit your project through the HackRice Devpost →"
+    href: "https://rshack2020.devpost.com/?preview_token=H7gOZ2eFoow62A5eN2O9L%2BLkk28FH3ev9h%2BhLqIVx3M%3D",
+    text: "Submit your project through the RSHack Devpost →"
   },
   {
-    icon: "https://icon.now.sh/compose/ffffff",
-    title: "Rice Registration",
-    href: "https://forms.gle/wLN8cmDXp9nnJ18q6",
-    text: "Are you a Rice student? Register for HackRice X →"
+    icon: "https://microicon-clone.vercel.app/compose/ffffff",
+    title: "Registration",
+    href: "https://form.typeform.com/to/gKWfHA4z",
+    text: "Are you a college student? Register now for RSHack →"
   },
   {
-    icon: "https://icon.now.sh/external/ffffff",
-    title: "(Non-Rice) Portal",
-    href: "https://hrx-registration.herokuapp.com",
-    text: "Registration has closed for students outside Rice! Visit our registration portal →"
+    icon: "https://microicon-clone.vercel.app/attach_money/ffffff",
+    title: "Sponsor",
+    href: "../static/sponsorships.pdf",
+    text: "Thanks for your interest! Check out our sponsorship packet →"
   },
-  // {
-  //   icon: "https://icon.now.sh/people/ffffff",
-  //   title: "Help-Q",
-  //   href: "https://hackrice-helpq.herokuapp.com/",
-  //   text: "Get help from a mentor →"
-  // },
-  // {
-  //   icon: "https://icon.now.sh/attach_money/ffffff",
-  //   title: "Sponsor",
-  //   href: "../static/sponsorships.pdf",
-  //   text: "Thanks for your interest! Check out our sponsorship packet →"
-  // },
   {
-    icon: "https://icon.now.sh/calendar/ffffff",
+    icon: "https://microicon-clone.vercel.app/calendar/ffffff",
     title: "Schedule",
     to: "calendar",
     text: "Find out when hacking begins and ends, and more →"
   },
   {
-    icon: "https://icon.now.sh/question_answer/ffffff",
+    icon: "https://microicon-clone.vercel.app/question_answer/ffffff",
     title: "FAQs",
     to: "faq",
-    text: "First timer? Most of your inquiries are answered →"
+    text: "First timer? We've answered some common questions for you →"
   },
   {
-    icon: "https://icon.now.sh/done_all/ffffff",
-    title: "Tracks & Challenges",
+    icon: "https://microicon-clone.vercel.app/done_all/ffffff",
+    title: "Sponsor Challenges",
     to: "tracks",
-    text: "Complete a track or compete to win a sponsor challenge →"
+    text: "Not feeling the general track? Commpete to win a sponsor challenge →"
   },
   {
-    icon: "https://icon.now.sh/casino/ffffff",
+    icon: "https://microicon-clone.vercel.app/casino/ffffff",
     title: "Prizes",
     to: "prizes",
-    text: "What can you win at HackRice? Worth a look →"
+    text: "We promised awesome prizes, didn't we? Take a look at what you can win →"
   },
   {
-    icon: "https://icon.now.sh/phone/ffffff",
+    icon: "https://microicon-clone.vercel.app/phone/ffffff",
     title: "Contact",
-    href: "mailto:hack@rice.edu",
+    href: "mailto:rice@saseconnect.org",
     text: "Have a question? Reach out via email →"
   },
   {
-    icon: "https://icon.now.sh/slack/ffffff",
+    icon: "https://microicon-clone.vercel.app/slack/ffffff",
     title: "Slack",
-    href: "https://join.slack.com/t/hackrice9/shared_invite/enQtNzUwMjg3MzAyMjQ2LWExOGI4YjQ0NTk3ZWMzZThiNzczMTgxMTAxYjhiMTkzYTVlZWQ5ODU2NDllM2YyNmM5NGYzZmZlODYyZmJkOGY",
-    text: "Want to stay connected with the event? Join our Slack channel →"
+    href: "https://join.slack.com/t/rshack/shared_invite/zt-l2ni8aok-965Sm5aam6_kNWAZh8U~nA",
+    text: "Join our Slack channel for the latest updates →"
   },
-  // {
-  //   icon: "https://icon.now.sh/lightbulb_outline/ffffff",
-  //   title: "Forum",
-  //   href: "https://rice-forum.herokuapp.com",
-  //   text: "Have an awesome hackathon idea? Share it on Forum →"
-  // },
-  // {
-  //   icon: "https://icon.now.sh/accessibility/ffffff",
-  //   title: "Find a Team",
-  //   href: "https://crowdforge.io/hackathons/hackrice9",
-  //   text: "Looking for a team to hack with? Click here →"
-  // },
   {
-    icon: "https://icon.now.sh/help_outline/ffffff",
-    title: "Need help?",
-    href: "https://m.me/hackrice",
-    text: "If you're having an urgent problem, message us! →"
+    icon: "https://microicon-clone.vercel.app/accessibility/ffffff",
+    title: "Register a Team",
+    href: "https://docs.google.com/spreadsheets/d/1_Nwj1MvfOK-BXkn7_RiHie_FRr0yi8MfmlHK0Zys_ts/edit#gid=0",
+    text: "Looking to register a team or find one to hack with? Click here →"
+  },
+  {
+    icon: "https://microicon-clone.vercel.app/help_outline/ffffff",
+    title: "What is Rice SASE?",
+    href: "https://www.ricesase.com",
+    text: "Learn more about the club behind the hackathon! →"
   }
 ].map(card => {
   card.key = `card-${card.title}`;

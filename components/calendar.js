@@ -2,8 +2,6 @@ import { Flex, Box } from "rebass";
 import { Element } from "react-scroll";
 import {
   title,
-  note,
-  friday,
   saturday,
   sunday,
   dayOne,
@@ -14,44 +12,29 @@ import colors from "../styles/colors.json";
 
 const Calendar = () => (
   <Element name="calendar">
-    <Box bg={"#ffffff"} color={colors["base"]}>
-      <Box mx={4} px={3} pt={4} mt={4}>
+    <Box bg={"#F4FEFC"} color={colors["base"]}>
+      <Box mx={4} px={2} pt={4}>
         <h2 className="title">{title}</h2>
       </Box>
-      <Box mx={4} px={3}>
-        <p className="note">{note}</p>
-      </Box>
       <Flex my={1} pb={4} mx={4} flexWrap="wrap">
-        <Box px={3} width={[1, 1 / 3]}>
-          <h2 className="dayName">{dayOne}</h2>
-          <ul className="dayContent">
-            {friday.map(({ key, title, time, detail, href }) => (
-              <li key={key} className="dayItem">
-                <a href={href} className="itemTitle">{title}</a>
-                <span className="itemTime">{time}</span>
-                <span className="itemDetail">{detail}</span>
-              </li>
-            ))} 
-          </ul>
-        </Box>
-        <Box px={3} width={[1, 1 / 3]}>
+        <Box px={3} width={[1, 1 / 2]}>
           <h2 className="dayName">{dayTwo}</h2>
           <ul className="dayContent">
-            {saturday.map(({ key, title, time, detail, href }) => (
+            {saturday.map(({ key, title, time, detail }) => (
               <li key={key} className="dayItem">
-                <a href={href} className="itemTitle">{title}</a>
+                <span className="itemTitle">{title}</span>
                 <span className="itemTime">{time}</span>
                 <span className="itemDetail">{detail}</span>
               </li>
             ))}
           </ul>
         </Box>
-        <Box px={3} width={[1, 1 / 3]}>
+        <Box px={3} width={[1, 1 / 2]}>
           <h2 className="dayName">{dayThree}</h2>
           <ul className="dayContent">
-            {sunday.map(({ key, title, time, detail, href }) => (
+            {sunday.map(({ key, title, time, detail }) => (
               <li key={key} className="dayItem">
-                <a href={href} className="itemTitle">{title}</a>
+                <span className="itemTitle">{title}</span>
                 <span className="itemTime">{time}</span>
                 <span className="itemDetail">{detail}</span>
               </li>
@@ -78,7 +61,6 @@ const Calendar = () => (
           font-weight: 600;
           color: ${colors["base"]};
           text-transform: uppercase;
-          padding: 0px;
         }
 
         .dayContent {
@@ -131,7 +113,7 @@ const Calendar = () => (
           font-size: 0.8em;
           font-weight: 400;
           font-family: "Overpass Mono";
-          background: #cccbd2;
+          background: #DEF7F2;
           padding: 2px 5px;
           color: ${colors["dark"]};
         }
@@ -142,10 +124,6 @@ const Calendar = () => (
           flex: 1 1 100%;
           font-size: 0.8em;
           margin-top: 0.5em;
-        }
-
-        .note {
-          font-size: .8em;
         }
       `}</style>
     </Box>

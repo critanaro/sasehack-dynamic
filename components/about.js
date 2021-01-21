@@ -13,7 +13,7 @@ import React from "react";
  */
 const About = props => (
   <Element name="about" style={{ overflowX: "hidden" }}>
-    <Flex mx={2} mt={4} flexWrap="wrap" px={["2%","5%","7%","9%","11%"]}>
+    <Flex mx={2} mt={4} flexWrap="wrap">
       <Box width={1} mx={2}>
         <h2 className="title">{props.title}</h2>
       </Box>
@@ -29,7 +29,6 @@ const About = props => (
           font-weight: 300;
           font-size: 1em;
           line-height: 1.6em;
-          color: #cccbd2;
         }
 
         p strong {

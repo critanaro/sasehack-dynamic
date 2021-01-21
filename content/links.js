@@ -6,40 +6,26 @@
  */
 export const links = [
     {
-      href: "https://facebook.com/hackrice",
+      href: "https://www.facebook.com/saserice/",
       label: "Facebook",
-      // icon: "https://icon.now.sh/facebook/cccbd2"
-      icon: "fb.svg"
+      icon: "https://microicon-clone.vercel.app/facebook/ffffff"
     },
     {
-      href: "https://www.linkedin.com/company/hackrice/about/",
-      label: "LinkedIn",
-      // icon: "https://icon.now.sh/linkedin/cccbd2"
-      icon: "linkedin.svg"
-    },
-    {
-      href: "https://medium.com/@hackrice",
-      label: "Medium",
-      // icon: "https://icon.now.sh/medium/cccbd2"
-      icon: "medium.svg"
-    },
-    {
-      href: "https://twitter.com/_hackrice",
-      label: "Twitter",
-      // icon: "https://icon.now.sh/twitter/cccbd2"
-      icon: "twitter.svg"
-    },
-    {
-      href: "mailto:hack@rice.edu",
+      href: "mailto:Rice_SASE@mailman.rice.edu",
       label: `Email`,
-      // icon: "https://icon.now.sh/email/cccbd2"
-      icon: "at.svg"
+      icon: "https://microicon-clone.vercel.app/email/ffffff"
     },
-    // {
-    //   href: "https://hackrice-9.devpost.com/",
-    //   label: "Devpost",
-    //   icon: "https://icon.now.sh/build/ffffff"
-    // }
+    {
+      href: "http://www.ricesase.com/",
+      label: `Website`,
+      icon: "https://microicon-clone.vercel.app/web/ffffff"
+    },
+   
+    {
+      href: "https://rshack2020.devpost.com/?preview_token=H7gOZ2eFoow62A5eN2O9L%2BLkk28FH3ev9h%2BhLqIVx3M%3D",
+      label: "Devpost",
+      icon: "https://microicon-clone.vercel.app/disqus/ffffff"
+    }
   ].map(link => {
     link.key = `nav-link-${link.href}-${link.label}`;
     return link;

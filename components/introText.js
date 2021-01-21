@@ -9,11 +9,11 @@ import { Box } from "rebass";
  */
 const IntroText = props => (
   <Box>
-   <Box px={2} mx={2}>
+   <Box width="auto" px={2} mx={2}>
       <h1 className="introText">{props.intro}</h1>
       {props.bullets.map(({ key, href, button, note, icon }) => (
         <div key={key} className="introItem">
-          <img src={`../static/${icon}`} className="icon" alt="icon"/>
+          <img className="icon" src={icon} />
           <a href={href} className="styledlink">
             {button}
           </a>
@@ -25,7 +25,6 @@ const IntroText = props => (
 
     <style jsx>{`
       .introText {
-        color: #ffffff;
         font-family: "Overpass Mono";
         font-size: 1.5em;
         font-weight: 700;
@@ -34,23 +33,22 @@ const IntroText = props => (
 
       .introItem {
         margin-bottom: 10px;
-        color: #cccbd2;
       }
 
       a.styledlink {
-        color: #cccbd2;
+        color: #fff;
         text-decoration: none;
         background: rgba(255, 255, 255, 0.1);
         transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-        padding: 4px 5px;
-        margin: 4px;
+        padding: 3px 5px;
+        margin: 3px;
         text-transform: uppercase;
         font-size: 0.85em;
         font-weight: 500;
       }
 
       a.styledlink:hover {
-        color: #191919;
+        color: #60b2b2;
         background: rgba(255, 255, 255, 1);
       }
 
@@ -59,10 +57,6 @@ const IntroText = props => (
         font-size: 0.8em;
         font-weight: 300;
         font-family: "Overpass Mono";
-      }
-
-      .icon {
-        width: .85em;
       }
 
       .spacer {

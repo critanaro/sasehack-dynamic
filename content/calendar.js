@@ -1,129 +1,82 @@
 export const title = "Schedule";
-export const note = "Please refer to your Hacker Handbook (emailed to you) for passwords and more details."
 
-export const dayOne = "Friday, 9/18";
-export const dayTwo = "Saturday, 9/19";
-export const dayThree = "Sunday, 9/20";
+//export const dayOne = "Friday, 3/06";
+export const dayTwo = "Saturday, 3/06";
+export const dayThree = "Sunday, 3/07";
 
-export const friday = [
+export const saturday = [
   {
-    time: "5-7 PM CT",
-    title: "Check-in & Networking",
-    // href: "https://hack.rice.edu", //example
-    detail: "Check in and hang out with fellow hackers and our sponsors!"
+    time: "10:00 AM – 2:45 PM",
+    title: "Hacker Check in",
+    detail: "Simply join our zoom call that will be linked at this site and let us know you're here."
   },
   {
-    time: "7 PM CT",
-    title: "Opening Ceremony",
+    time: "12:00 - 1:00 PM",
+    title: "Networking with Sponsors ",
+    detail: "Sponsors, including Rice SASE will open Zoom rooms where hackers can chat with sponsor representatives. Links will be posted here at the time of the event"
+  },
+  {
+    time: "1:00 PM",
+    title: "Opening Ceremonies",
     detail:
-      "The event will formally begin with a bit about rules & guidelines, and a word from sponsors."
+      "The event will formally begin with a bit about rules & guidelines, and a word from sponsors about their tracks."
   },
   {
-    time: "7:30 PM CT",
-    title: "Dinner & Form Teams",
+    time: "2:00 PM",
+    title: "Hacking Begins",
     detail:
-      "Grab a bite together virtually, and meet other hackers to form teams (if you haven't already)."
+      "Start hacking! RSHack admins will be available to answer any questions."
   },
   {
-    time: "8 PM CT",
-    title: "Hacking Begins!",
-    detail: "Start building your project!"
+    time: "3:30 PM",
+    title: "Sponsor Event 1!",
+    detail: "Event 1 TBD."
   },
   {
-    time: "8:30 PM CT",
-    title: "First-Timers Track Workshop",
-    detail:
-      "Our first workshop for the First-Timers track."
-  },
-  {
-    time: "10 PM CT",
-    title: "Workshop 2",
-    detail:
-        "Description"
-  },
-  {
-    time: "11:30 PM CT",
-    title: "Late Night Snack",
-    detail:
-        "Join us with a late night snack for a fun activity with fellow hackers and a raffle!"
+    time: "5:30 PM",
+    title: "Sponsor Event 2!",
+    detail: "Event 2 TBD with giveaway."
   }
 ].map(item => {
   item.key = `item-${item.title}`;
   return item;
 });
 
-export const saturday = [
-  {
-    time: "9 AM CT",
-    title: "Breakfast",
-    detail: "Hop on for a virtual breakfast, mini-event, and a raffle!"
-  },
-  {
-    time: "10 AM CT",
-    title: "Workshop 3",
-    detail: "Description"
-  },
-  {
-    time: "12 PM CT",
-    title: "Lunch and Panel",
-    detail: "Grab lunch and tune in for our Diversity in Tech panel! Our panelists will share and discuss their experiences, advice, and more!"
-  },
-  {
-    time: "2:30 PM CT",
-    title: "Google Tech Talk",
-    detail: "Come join us for a live tech talk by Google engineers, Ryan Matsumoto and Andrea Wu!"
-  },
-  {
-    time: "7:30 PM CT",
-    title: "Dinner",
-    detail: "Eat dinner together virtually and participate in an activity and raffle!"
-  },
-  {
-    time: "11:30 PM CT",
-    title: "Late Night Snack",
-    detail:
-        "Another late night snacking session, plus a mini-event and a raffle!"
-  }
-].map(item => {
-  item.key = `item-${item.detail}`;
-  return item;
-});
-
 export const sunday = [
   {
-    time: "9:00 AM",
-    title: "Hacking Ends!",
-    detail: "Submissions close on DevPost."
-  },
-  {
-    time: "9:30 AM",
-    title: "Judging Begins",
-    detail: "Judging commences!"
-  },
-  {
-    time: "10:00 AM",
-    title: "Guest Speaker",
-    detail: "While our judges are busying reviewing submissions, join us for our guest speaker, Dr. Greg Davis, principal technologist at NASA-JPL!"
-  },
-  {
-    time: "11:45 AM",
-    title: "Raffle and Top 5 Teams",
-    detail: "Don't miss our final raffle, and we'll also be announcing the top 5 finalists!"
-  },
-  {
     time: "12:00 PM",
-    title: "Finalists Judging",
-    detail: "The top 5 projects will present and demo live!"
+    title: "Sponsor Event 3!",
+    detail: "Event 3 TBD"
   },
   {
-    time: "1:15 PM",
-    title: "Closing Ceremony",
-    detail: "Winners will be announced and prizes awarded"
+    time: "2:00 PM",
+    title: "Hacking Ends",
+    detail: "Get those submissions in! Don't forget the video and the devpost!"
   },
   {
-    time: "2 PM",
-    title: "End!",
-    detail: "Hope you had a wonderful event, and we look forward to HackRice 11 :)"
+    time: "2:00 - 3:00 PM",
+    title: "Grace Period for Uploading",
+    detail: "Though hacking ends at 2:00 PM, submissions will be accepted until but no later than 3:00 PM."
+  },
+  {
+    time: "3:00 PM",
+    title: "Round 1 Judging Begins",
+    detail: "Video submissions for the general track will be assessed by our judges. Certain tracks may have live presentations at this point."
+  },
+  {
+    time: "3:30 PM",
+    title: "Round 2 Notification",
+    detail: "Teams that will be advancing to Round 2 will be notified"
+  },
+  {
+    time: "3:40 PM",
+    title: "Round 2 Judging",
+    detail: "Live presentations will take place for Round 2 judging."
+  },
+  {
+    time: "4:00 PM",
+    title: "Winner Reveal and Closing Remarks",
+    detail: "The top three teams will be announced, and the winning general track team will do a small presentation."
   }
 ].map(item => {
   item.key = `item-${item.detail}`;

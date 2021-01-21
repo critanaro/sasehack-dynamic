@@ -33,7 +33,8 @@ const Sponsors = () => (
       justifyContent="space-around"
       alignItems="center"
       width={1}
-      mx={3}
+      mx={5}
+      my={3}
     >
       <h2 className="title">{title}</h2>
       {files.map(
@@ -41,15 +42,15 @@ const Sponsors = () => (
           blurb === undefined ? (
             <a href={link}>
               <Image
-                style={{ margin: "2em 1em", height: `${height}` }}
+                style={{ margin: "2em 1em", height: `${height}`}}
                 src={`../static/sponsors/${name}`}
               />
             </a>
           ) : (
-            <CustomTooltip text={blurb}>
+            <CustomTooltip text={blurb} style={{background: 0}}> 
               <a href={link}>
-                <Image
-                  style={{ margin: "2em 1em", height: `${height}` }}
+                <Image 
+                  style={{ margin: "2em 1em", height: `${height}`}}
                   src={`../static/sponsors/${name}`}
                 />
               </a>

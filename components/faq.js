@@ -39,7 +39,7 @@ export default class Questions extends React.Component {
 
     for (let i = 0; i < this.props.questions.length; i += shift) {
       cols.push(
-        <Flex flexWrap="wrap" flexDirection="column" width={[1,,1/2,1/3]}>
+        <Flex flexWrap="wrap" flexDirection="column" width={[1, 1 / 2, 1 / 3]}>
           {this.props.questions.slice(i, i + shift).map(({ key, question, answer }) => (
             <Collapse
               key={key}
@@ -53,7 +53,7 @@ export default class Questions extends React.Component {
                 header={question}
                 headerClass="faqCardTitle"
               >
-                <span className="card">{answer}</span>
+                <p>{answer}</p>
               </Panel>
             </Collapse>
           ))}
@@ -72,13 +72,12 @@ export default class Questions extends React.Component {
         <Flex mt={4} justifyContent="center">
           <h2 className="title">{this.props.title}</h2>
         </Flex>
-        <Flex flexDirection="row" flexWrap="wrap" mt={2} mb={5} px={["2%","5%","7%","9%","11%"]}>
+        <Flex flexDirection="row" flexWrap="wrap" mt={2} mb={5} pt={2}>
           {cols}
         </Flex>
         <style jsx>
           {`
             .title {
-              color: #ffffff;
               display: inline-block;
               text-transform: uppercase;
               background: ${colors["dark"]};
@@ -91,7 +90,8 @@ export default class Questions extends React.Component {
               margin-left: auto;
               margin-right: auto;
               height: 40px;
-            },
+              font-family: "Overpass Mono", monospace;
+            }
           `}
         </style>
       </Element>
