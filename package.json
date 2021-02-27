@@ -2,7 +2,7 @@
   "name": "hackrice",
   "version": "1.0.0",
   "description": "website for rice university hackathon",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",

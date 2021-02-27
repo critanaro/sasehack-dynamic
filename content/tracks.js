@@ -4,48 +4,36 @@ export const cards = [
     {
         icon: "https://microicon-clone.vercel.app/bubble_chart/ffffff",
         type: "track",
+        title: "General Track",
+        text: "Our theme this year is community! After spending so much time apart, we’re looking for hacks that will bring us together again (safely) and/or help out other members of the community. We’re looking for complete, functional projects as opposed to just UI mockups and idea explanations, but we obviously understand if a few things are hardcoded. While we would love to see a community themed hack, the General track also accepts submissions about anything, so feel free to submit whatever hack you come up with! Please note, if you submit to the CDK Global, Lilie, or Beginner Track, you may not submit to the General Track."
+    },
+    {
+        icon: "https://microicon-clone.vercel.app/bubble_chart/ffffff",
+        type: "track",
         title: "First Timers' Track",
         href: "https://github.com/hack-rice/HR9-First-Timers-Track",
-        text: "We live in a society where everything is customized, from your phone case to your coffee order. So why shouldn't your browser be too? Chrome extensions allow you to craft and tailor your ideal browsing experience in a few short lines of code. In this track, you'll build a Chrome extension from scratch using HTML/CSS and JavaScript."
+        text: "This track is only for groups with a majority of people who have <1 year of programming experience. We’ve left it open ended, but here are some ideas to get you started! Our theme is community, but hacks about (almost) anything will be accepted!"
     },
     {
         icon: "https://microicon-clone.vercel.app/border_color/ffffff",
         type: "track",
-        title: "Quantico Energy Track",
-        href: "https://github.com/hack-rice/HR9-Design-Track",
-        text: (
-            <p>
-                Based off the CSS Zen Garden, this track aims to show you the power of HTML and CSS.
-                <br />
-                <br />
-                CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” While HTML is used to structure a web document (defining things like headlines and paragraphs, and allowing you to embed images, video, and other media), CSS comes through and specifies your document’s style—page layouts, colors, and fonts are all determined with CSS. (<a href="https://skillcrush.com/2012/04/03/css/">source</a>)
-                <br />
-                <br />
-                "Although there are new tools and technologies to help with frontend design, we want to focus our attention back on the basics. CSS is a powerful and often overlooked tool, and with this design track, we hope you will learn something new about CSS.")
-            </p>)
+        title: "EchoAR Track",
+        href: "https://console.echoar.xyz/#/auth/register-hackathon?code=RiceSASEHack",
+        text: "Build the best AR/VR application using the echoAR platform! Click here to register for this track - EchoAR has set up a special registration on their platform for those competing in this track!"
     },
     {
         icon: "https://microicon-clone.vercel.app/user/ffffff",
         type: "track",
         title: "CDK Global Track",
-        href: "https://github.com/hack-rice/HR9-Ethics-Track",
-        text: "Computing and technology are neutral for the most part. They can be used to enhance the best aspects of human nature (such as empathy, creativity, and generosity), or they can allow the worst aspects of it (such as prejudice, selfishness, and irrational thinking) to flourish and cause harm. Incorporating ethics into design and coding involves trying to anticipate all the ways – positive and negative – humans may use and interact with tech. While it’s difficult to exert complete control over human users, tech can be designed to promote particular behavior and outcomes."
+        href: "https://docs.google.com/document/d/1hV56u8As5yyCYVNgs_KBvKWQU1pzot5LXLydKfeEhRs/edit?usp=sharing",
+        text: "See the link for more details!"
     },
     {
         icon: "https://microicon-clone.vercel.app/build/ffffff",
         type: "track",
-        title: "Lilie Track",
-        href: "https://github.com/hack-rice/HR9-Design-Track",
-        text: (
-            <p>
-                Based off the CSS Zen Garden, this track aims to show you the power of HTML and CSS.
-                <br />
-                <br />
-                CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” While HTML is used to structure a web document (defining things like headlines and paragraphs, and allowing you to embed images, video, and other media), CSS comes through and specifies your document’s style—page layouts, colors, and fonts are all determined with CSS. (<a href="https://skillcrush.com/2012/04/03/css/">source</a>)
-                <br />
-                <br />
-                "Although there are new tools and technologies to help with frontend design, we want to focus our attention back on the basics. CSS is a powerful and often overlooked tool, and with this design track, we hope you will learn something new about CSS.")
-            </p>)
+        title: "Lilie Healthcare Track",
+        href: "https://docs.google.com/document/d/1Ed7n2S5eAyneY31GltXW_-8aJy9q4C7oBBG3NpGBX3A/edit?usp=sharing",
+        text: "See the link for more details!"
     },
     /*
         {

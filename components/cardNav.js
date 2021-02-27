@@ -1,7 +1,7 @@
 import { Flex, Box } from "rebass";
 import * as Scroll from "react-scroll";
-let ScrollingLink = Scroll.Link;
 import colors from "../styles/colors.json";
+let ScrollingLink = Scroll.Link;
 
 /**
  * A component that displays links in cards.
@@ -48,8 +48,8 @@ const CardNav = props => (
       }
 
       .card {
-        border: 1px solid ${colors["gray"][1]};
-        color: ${colors["gray"][1]};
+        border: 1px solid ${colors["white"]};
+        color: ${colors["white"]};
         font-family: "Overpass Mono", monospace;
         margin: 10px;
         min-height: 110px !important;
