@@ -4,11 +4,13 @@
   "description": "website for rice university hackathon",
   "main": "./index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
     "start": "next start",
     "export": "next build && next export -o docs",
-    "deploy": "next build && next export -o docs && cd docs && touch CNAME && echo ricesasehack.com >> CNAME && touch .nojekyll && cd .. && git add ."
+    "deploy": "next build && next export -o docs && cd docs && touch CNAME && echo ricesasehack.com >> CNAME && touch .nojekyll && cd .. && git add .",
+    
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT"
   },
   "author": "",
   "license": "ISC",
